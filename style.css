@@ -2,7 +2,7 @@
 
 body {
     /* font-family: 'Baloo Bhai', cursive; */
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     color: #f1eded;
     margin: 0px;
     padding: 0px;
