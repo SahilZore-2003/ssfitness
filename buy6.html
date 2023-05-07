@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buy page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="buypage">
+        <div class="buycontent">
+          <div class="image">
+            <img src="images/photo12.jpg" alt="">
+          </div>
+          <div class="itemname">Gold Standard Whey Protein</div>
+    
+          <form action="#" method="post" name="google-sheet">
+            <div class="form-group">
+              <input type="text" name="product" value="Gold Standard Whey Protein"  readonly>
+            </div>
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Enter Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="number" name="number" placeholder="Enter Your number" required>
+            </div>
+            <div class="form-group">
+              <input type="number" name="quntity" placeholder="Enter quntity" required>
+            </div>
+            <div class="form-group">
+              <input type="text" name="address" placeholder="Enter address" required>
+            </div>
+            <div class="form-group">
+              <input class="submit" type="submit" value="buy">
+            </div>
+          </form>
+        </div>
+      </section>
+
+
+      <script>
+         const scriptURL = 'https://script.google.com/macros/s/AKfycbypZxGN3Ga-Hmpl2vVFLRZ71tzf1zQrVxhG5ae8LQ5-hRmGpyrbCNzS9bsQf1_eiCBw_A/exec'
+    const form = document.forms['google-sheet']
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => alert("Thanks for ordering us..! We Will Contact You Soon..."))
+        .catch(error => console.error('Error!', error.message))
+    })
+      </script>
+</body>
+</html>
