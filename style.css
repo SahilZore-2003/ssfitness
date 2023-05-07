@@ -278,7 +278,7 @@ i {
     }
 
     #exampleFormControlSelect1 {
-        font-family: 'Baloo Bhai', cursive;
+        
         text-align: center;
         display: block;
         width: 100%;
@@ -312,10 +312,10 @@ i {
     }
 
     .form-group input {
-        font-family: 'Baloo Bhai', cursive;
+        
         text-align: center;
         display: block;
-        width: 90%;
+        width: 100%;
         padding: 1px;
         border: 2px solid rgb(255, 255, 255);
         margin: 5px auto;
@@ -324,10 +324,10 @@ i {
     }
 
     form select {
-        font-family: 'Baloo Bhai', cursive;
+        
         text-align: center;
         display: block;
-        width: 90%;
+        width: 100%;
         padding: 5px;
         border: 2px solid rgb(255, 255, 255);
         margin: 5px auto;
