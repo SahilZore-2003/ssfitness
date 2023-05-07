@@ -33,7 +33,7 @@ body {
 }
 
 .right .btn {
-    font-family: 'Baloo Bhai', cursive;
+    
     margin: 0px 9px;
     background-color: #fff;
     color: rgb(15, 0, 0);
@@ -69,7 +69,7 @@ body {
 }
 
 .form-group input {
-    font-family: 'Baloo Bhai', cursive;
+    
     text-align: center;
     display: block;
     width: 508px;
@@ -80,8 +80,8 @@ body {
     border-radius: 8px;
 }
 
-form select {
-    font-family: 'Baloo Bhai', cursive;
+.form select {
+    
     text-align: center;
     display: block;
     width: 508px;
@@ -93,7 +93,7 @@ form select {
 }
 
 #exampleFormControlSelect1 {
-    font-family: 'Baloo Bhai', cursive;
+    
     text-align: center;
     display: block;
     width: 508px;
@@ -125,7 +125,7 @@ form select {
     color: rgb(243, 240, 240);
     padding: 10% 0;
     display: none;
-    font-family: 'Baloo Bhai', cursive;
+    
     font-weight: bold;
 
 
@@ -150,7 +150,7 @@ form select {
     color: white;
     display: none;
     text-align: center;
-    font-family: 'Baloo Bhai', cursive;
+    
 }
 
 #gym {
@@ -217,7 +217,6 @@ i {
     width: 100%;
     min-height: 100vh;
     background-color: black;
-
     padding-top: 20px;
 
 }
